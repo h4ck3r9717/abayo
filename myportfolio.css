@@ -6,13 +6,6 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
-}
-
-body{
-  background-color: #000;
-  overflow: scroll;
-  width:100vw;
 }
 
 header{
@@ -26,7 +19,6 @@ header{
     color:white;
     position: fixed;
     top:0;
-    left:0;
 }
 
 .nav-links{
@@ -34,7 +26,14 @@ header{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width:70%;
 }
+
+nav{
+  display:flex;
+  justify-content: flex-start;
+}
+
 .contact-btn{
     display:flex;
     flex-direction: row;
@@ -55,8 +54,8 @@ header{
 ul{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
-    width:500px;
+    justify-content: space-around;
+    width:50%;
 }
 
 nav{
@@ -146,7 +145,7 @@ hr{
 
 #services{
     width:100vw;
-    height:100vh;
+    height:80vh;
     background-color: #000;
     color:#fff;
     display:flex;
@@ -200,7 +199,7 @@ h3{
 }
 
 #contact{
-    width:100%;
+    width:100vw;
     height:100vh;
     background-color: #000;
     color:white;
@@ -240,7 +239,7 @@ h2{
  }
 
  .footer{
-    height:50px;
+    height:20%;
     margin-top:100px;
     display:flex;
     flex-direction: column;
