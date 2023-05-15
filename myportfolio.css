@@ -8,6 +8,11 @@
     padding:0;
 }
 
+body{
+    font-size: 30px;
+    background-color:#000;
+}
+
 header{
     width:100vw;
     height:10%;
@@ -55,7 +60,7 @@ ul{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    width:50%;
+    width:70%;
 }
 
 nav{
@@ -128,7 +133,7 @@ h1{
 }
 
 .enlarge{
-  font-size:20px;
+  font-size:25px;
   text-align: justify;
 }
 #my-photo{
@@ -166,7 +171,7 @@ h3{
 .progress{
     display:flex;
     flex-direction: column;
-    gap:4px;
+    gap:6px;
     height: 360px;
 }
 
@@ -192,21 +197,27 @@ h3{
 .quote::after{
     content:' "';
 }
-
+ 
+aside{
+    width:275px;
+    height:auto;
+    background-color: #000;
+    margin: auto;
+}
 .quote{
     color:burlywood;
-    font-size:20px;
+    font-size:30px;
 }
 
 #contact{
     width:100vw;
-    height:100vh;
+    height:70vh;
     background-color: #000;
     color:white;
     display:flex;
     flex-direction:column;
     justify-content: center;
-    align-items: center;
+    align-items: centeR;
 }
 
 h2{
@@ -235,7 +246,7 @@ h2{
  .last p{
    text-align:center;
    font-family: tahoma;
-   font-size:18px;
+   font-size:28px;
  }
 
  .footer{
@@ -244,8 +255,15 @@ h2{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    align-items:center;
  }
 
+ .last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+ }
  .accounts:hover{
     color:rgb(234,234,90);
  }
